@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cors());
 
 // Basic Auth
-app.use(BasicAuth); //para continuar a execução
+// app.use(BasicAuth); //para continuar a execução
 
 //Controllers
 app.use(controllerUsuarios);
