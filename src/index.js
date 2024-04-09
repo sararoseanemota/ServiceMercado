@@ -7,16 +7,6 @@ import controllerProdutos from "./controllers/controller.produtos.js";
 import controllerPedidos from "./controllers/controller.pedidos.js";
 import BasicAuth from "./config/basic-auth.js";
 
-<Page>
-    <Text variant="h2" className="mb-6">
-        Password-protected page demo
-    </Text>
-    <List>
-        <li>username: nutrifit</li>
-        <li>password: 123456</li>
-    </List>
-</Page>
-
 //não modificar a variavel e instanciando a variável e recebendo o package express
 const app = express();
 
